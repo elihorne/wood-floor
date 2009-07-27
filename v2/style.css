@@ -1,11 +1,10 @@
 *{border:0;margin:0;padding:0;}
 body{background:#b1784b url(images/woodenfloor.jpg) left top repeat fixed;}
-#shadow{background:url(images/shadow.png) left top repeat-x;width:100%;height:100%;position:fixed;left:0;top:0;z-index:-1;}
 a{background-color:#333;color:#0FF;text-decoration:none;text-transform:uppercase;font-weight:700;padding:3px 5px;}
 a:hover{background-color:#0ff;color:#000;}
-a:active{background-color:#d1d1d1;}
+a:active{background-color:#d1d1d1;border-top:1px solid #333;border-left:1px solid #333;}
 #ie-sucks{display:none;}
-.portfolio{width:713px;background-color:rgba(0,0,0,0.6);font-family:'helvetica neue',helvetica,sans-serif;color:#222;position:relative;margin:25px auto;padding:19px;-moz-box-shadow:#000 1px 1px 10px;}
+.portfolio{width:713px;background-color:rgba(0,0,0,0.6);font-family:'helvetica neue',helvetica,sans-serif;color:#222;position:relative;margin:25px auto;padding:19px;}
 #wrapper{background-color:#fff;position:relative;margin:7px;}
 #slide-resume{width:618px;}
 .page{background-color:#fff;}
@@ -28,7 +27,6 @@ h3{text-transform:uppercase;font-size:13px;font-family:georgia,serif;}
 .contact span{display:block;margin:10.5px 0;}
 .port-item,.port-item h3{font-family:'helvetica neue',helvetica,sans-serif;}
 .port-item h3{margin-bottom:7px;font-size:12px;}
-.port-item .thumb-set{margin-left:0;}
 .port-item .thumb-set li{list-style:none;float:left;margin-right:7px;width:102px;height:102px;background:#333;padding:7px;}
 .port-item .thumb-set li a{display:block;text-indent:-9999em;overflow:hidden;width:92px;height:96px;}
 #li-nypc a{background:url(images/screens/rtr-nypc.png) -100px -100px no-repeat}
@@ -98,7 +96,7 @@ ul.col li{margin-bottom:4px;}
 a.prev{display:none;}
 #brunchable-1 a:hover{background-position:left -232px;}
 
-.scroll{height:780px;overflow:auto;position:relative;clear:both;background-color:#fff;overflow:hidden;}
+.scroll{height:780px;overflow:auto;position:relative;clear:both;background-color:#fff;}
 .scrollContainer div.panel{width:617px;padding:0 .5in .5in;}
 div#fancy_overlay{position:absolute;top:0;left:0;z-index:90;width:100%;background-color:#333;}
 div#fancy_loading{position:absolute;height:40px;width:40px;cursor:pointer;display:none;overflow:hidden;background:transparent;z-index:100;}
